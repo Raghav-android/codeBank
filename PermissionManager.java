@@ -1,5 +1,3 @@
-package com.app.everz.utils.helper;
-
 
 import android.Manifest;
 import android.app.Activity;
