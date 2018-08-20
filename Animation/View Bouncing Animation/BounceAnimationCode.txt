@@ -1,0 +1,8 @@
+	
+	ScaleAnimation mAnimation = new ScaleAnimation((float) 0.8, (float) 1.3, (float) 0.8, (float) 1.3, 80, 80);
+        mAnimation.setDuration(1500);
+        mAnimation.setRepeatCount(Animation.INFINITE);
+        mAnimation.setRepeatMode(Animation.RESTART);
+        MyBounceInterpolator interpolator = new MyBounceInterpolator(0.2, 20);
+        mAnimation.setInterpolator(interpolator);
+        ivIndicator.setAnimation(mAnimation);

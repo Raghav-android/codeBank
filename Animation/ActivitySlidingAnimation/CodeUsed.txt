@@ -1,0 +1,14 @@
+To slide both activity while starting(After startActivity()):
+overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
+
+To slide one activity and zoom out other while starting(After startActivity()):
+overridePendingTransition(R.anim.slide_from_right, R.anim.zoom_exit);
+
+
+
+finishing activity by sliding one activity and zoom in other(in onBackPressed()):
+overridePendingTransition(R.anim.zoom_enter, R.anim.slide_to_right);
+
+finishing activity by sliding both activity(in onBackPressed()):
+overridePendingTransition(R.anim.slide_from_left, R.anim.slide_to_right);
+

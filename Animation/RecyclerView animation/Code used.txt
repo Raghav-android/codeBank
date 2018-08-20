@@ -1,0 +1,3 @@
+int resId = R.anim.layout_animation_up;
+LayoutAnimationController animation = AnimationUtils.loadLayoutAnimation(this, resId);
+recyclerView.setLayoutAnimation(animation);
